@@ -1,0 +1,512 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>AVN Technologies</title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="stylesheet.css" rel="stylesheet" />
+ <script>
+ $(document).ready(function(){
+    $("#facebook").mouseenter(function(){
+        $("#facebookicon").show("slow");
+    });
+    $("#facebook").mouseleave(function(){
+        $("#facebookicon").hide("slow");
+    });
+
+
+    $("#twitter").mouseenter(function(){
+        $("#twittericon").show("slow");
+    });
+    $("#twitter").mouseleave(function(){
+        $("#twittericon").hide("slow");
+    });
+
+
+    $("#linkedin").mouseenter(function(){
+        $("#linkedinicon").show("slow");
+    });
+    $("#linkedin").mouseleave(function(){
+        $("#linkedinicon").hide("slow");
+    });
+
+
+    $("#google").mouseenter(function(){
+        $("#googleicon").show("slow");
+    });
+    $("#google").mouseleave(function(){
+        $("#googleicon").hide("slow");
+    });
+
+
+    $("#rss").mouseenter(function(){
+        $("#rssicon").show("slow");
+    });
+    $("#rss").mouseleave(function(){
+        $("#rssicon").hide("slow");
+    });
+ });
+ </script>
+ 
+</head>
+
+<body>
+<div id="header_1">
+<div class="fluid-container">
+	<div class="row" id="head">
+		<div class="col-xs-2"></div>
+		<div class="col-xs-3 header">
+			<p><i>We are Valuable to your Business</i></p>
+		</div>
+		<div class="col-xs-4"></div>
+		<div class="col-xs-2 header">
+			<p><i><span class="glyphicon glyphicon-earphone"></span>+91 98858 43888</i></p>
+		</div>
+		<div class="col-xs-1"></div>
+	</div>
+</div>
+
+	<div class="fluid-container" style="background-color:white">
+		<div class="row" id="nav">
+			<div class="col-xs-4"></div>
+			<div class="col-xs-8">
+				<ul>
+					<li class="list_item"><a data-toggle="tab" href="#about">About AVN</a></li>
+					<li class="list_item"><a data-toggle="tab" href="#services">Services</a></li>
+					<li class="list_item"><a data-toggle="tab" href="#technologies">Technologies</a></li>
+					<li class="list_item"><a data-toggle="tab" href="#solutions"> Solutions</a></li>
+					<li class="list_item"><a data-toggle="tab" href="#industries">Industries</a></li>
+					<li class="list_item"><a data-toggle="tab" href="#careers">Careers</a></li>
+					<li class="list_item"><a data-toggle="tab" href="#contacts">Contact</a></li>
+				</ul>
+			</div>
+			<div id="logo">
+				<span  class="active"><a data-toggle="tab" href="#home"><img src="images/logo.png" alt="avn logo" style="width:170px; height:110px;" /></a></span>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="fluid-container" id="pages">
+	<div class="tab-content" >
+			<div id="icons">
+				<img src="images/facebook.png" class="icon" id="facebook" />
+				<img src="images/twitter.png" class="icon" id="twitter" />
+				<img src="images/linkedin.png" class="icon" id="linkedin"/>
+				<img src="images/google.png" class="icon" id="google"/>
+				<img src="images/rss.png" class="icon" id="rss"/>
+			</div>
+			<div id="description">
+				<p id="facebookicon" class="desc">FACEBOOK</p>
+				<p id="twittericon" class="desc">TWITTER</p>
+				<p id="linkedinicon" class="desc">LINKEDIN</p>
+				<p id="googleicon" class="desc">GOOGLE+</p>
+				<p id="rssicon" class="desc">RSS</p>
+			</div>
+			
+			<div class="tab-pane fade in active content" id="home"  >
+				  <img class="mySlides" src="images/slide1.jpg" style="width:1378px" />
+				  <img class="mySlides" src="images/slide2.jpg" style="width:1378px" />
+				  <img class="mySlides" src="images/slide3.jpg" style="width:1378px" />
+				  <img class="mySlides" src="images/slide4.jpg" style="width:1378px" />
+				  <img class="mySlides" src="images/slide5.jpg"  style="width:1378px" />
+			</div>
+			<script>
+			  
+				var myIndex = 0;
+				carousel();
+				
+				function carousel() {
+					var i;
+					var x = document.getElementsByClassName("mySlides");
+					for (i = 0; i < x.length; i++) {
+					   x[i].style.display = "none";  
+					}
+					myIndex++;
+					if (myIndex > x.length) {myIndex = 1}    
+					x[myIndex-1].style.display = "block";  
+					setTimeout(carousel, 6000); // Change image every 6 seconds
+				}
+			</script>
+		 <div class="row  tab-pane fade content" id="about">
+			<div class="col-xs-1"></div>
+			<div class="col-xs-6">
+ 				 <h2 id="heading">About AVN</h2>
+ 
+  						<div class="panel-group" id="accordion">
+   							 <div class="panel panel-default">
+      								<div class="panel-heading">
+        									<h4 class="panel-title">
+          											<a data-toggle="collapse" data-parent="#accordion" href="#company">Company</a>
+       										 </h4>
+      								 </div>
+      								 <div id="company" class="panel-collapse collapse in">
+											<div class="panel-body"><p>AVN Technologies Inc is a pioneer technology company that helps businesses to scale-up the quality of service, achieves work efficiency, saves on time, reduces costs and sustains customer loyalty. We are a new generation company that aims to deliver innovative and cost-effective solutions for diverse industry verticals as Life Sciences and Healthcare by leveraging on the latest technologies.AVN’s solutions portfolio aims to achieve more with less. We focus on SAS Programming, Biostatistics, Data base programming, CDSIC conversion services.</p>
+									 
+																<p>AVN has developed into one of the most respected consulting in the Life Sciences and Health Care. Our team is led by industry veterans that have helped companies accomplish their recruiting goals. We are passionate about the industry and want to develop relationships with others who feel the same. Our mission is to combine superior technical knowledge of the Life Sciences and Heath care with integrity and dedication to deliver the highest level of service.</p></div>
+      								   </div>
+    							</div>
+    							<div class="panel panel-default">
+      								<div class="panel-heading">
+        								<h4 class="panel-title">
+          									<a data-toggle="collapse" data-parent="#accordion" href="#training">Training and Development</a>
+        								</h4>
+      								 </div>
+      								 <div id="training" class="panel-collapse collapse">
+										<div class="panel-body"><p>The challenges associated with each client’s project have put our project readiness in question. To counter this challenge effectively we have taken measures to enhance the readiness of personnel for the present and future project challenges.</p>
+										 	<p>The in-house trainings and expert interactive sessions have been made part of the employee orientation and on-job training activities. At AVN, skill development by conduct of job enrichment programs is a continuous activity.</p></div>
+      									</div>
+    							</div>
+    							<div class="panel panel-default">
+      									<div class="panel-heading">
+        									<h4 class="panel-title">
+          										<a data-toggle="collapse" data-parent="#accordion" href="#challenges">Challenges</a>
+       										 </h4>
+      									</div>
+      									<div id="challenges" class="panel-collapse collapse">
+       										 <div class="panel-body"><p>Businesses face two immediate challenges: One, the rising expectations of customers for new and innovative products/services and second, to counter competition from rival businesses.</p>
+																	<p>At AVN Technologies, we consider that, developing new projects is sure to revitalize your business. Our SAS Programming strategy encompasses all the issues of offering something new to the market, from design, development, testing and execution of projects. One of the advantages of our services that we can respond to customer needs as they change. Our strategy is based on close work association with our customers, customer surveys and evaluation of customer business needs. By making our development strategy customer-driven we assure each client a strong and competitive edge.</p></div>
+      									</div>
+    							</div>
+								<div class="panel panel-default">
+      								<div class="panel-heading">
+        								<h4 class="panel-title">
+          									<a data-toggle="collapse" data-parent="#accordion" href="#management">Management</a>
+        								</h4>
+      									</div>
+      								<div id="management" class="panel-collapse collapse">
+        							<div class="panel-body"> <p>The team of specialists at AVN Inc is our greatest asset. We could not have realized our client’s project expectations, if not for the sustained and focused efforts of each member of our team. Even though each one of the team brings specialist experience in SAS Programming, Biostatistics, Data base programming, CDSIC conversion services; when it comes to project planning, implementation and maintenance, we act as one.</p>
+															<p>We could achieve peak performance in project management and execution only by leveraging on consensus and proven expertise of each member of the management. At AVN, we work
+together to deliver phenomenal value to the clients. As our work is guided by an established the client’s needs, project goals and expectation. With this as the basis we set and establish each team member’s role and responsibility.</p></div>
+      									</div>
+    							</div>
+								<div class="panel panel-default">
+      								<div class="panel-heading">
+        								<h4 class="panel-title">
+          									<a data-toggle="collapse" data-parent="#accordion" href="#life">Life at AVN Technologies</a>
+        								</h4>
+      								</div>
+     								 <div id="life" class="panel-collapse collapse">
+        									<div class="panel-body"> <p>AVN Inc is an equal opportunity company. We have based our HR philosophy on the values of trust, transparency and competency. The non-stress environment at our workplace puts work and play put in the right balance. This has helped us to sustain each team member’s interest in work, greater productive and far lesser attrition rates.</p>
+											<p>The routine at AVN includes Sports Meets, outings, celebration of birthdays, and arrangement of get-together parties at regular intervals of time. It has been integral to our work culture that good working conditions and healthy social life is a big booster of employee’s productivity, and keeps them focused at work.</p></div>
+     								 </div>
+    							</div>
+ 						 </div> 
+					</div>
+					<div class="col-xs-1"></div>
+    				<div class="col-xs-3" id="side_matter">
+							<h2>Life Sciences and Biostatistics</h2>	
+							<p>AVN bring expertise and insights in designing trials and developing complex statistical analysis plans. Our biostatisticians possess the critical thinking to assist clients.</p><br /><br />
+							<p>Our biostatisticians are industry experts in several statistical areas including adaptive design, personalized medicine, Bayesian analysis and non-inferiority approaches with extensive experience in several indications. Our biostatisticians and SAS Programmers have over 15 years of experience in NDA/BLA/PMA submission and interacting with FDA/EMEA and PMDA and actively collaborate with academic, industry and FDA working groups. Additionally, they are experienced with CDISC data standards and electronic submission standards to deliver high quality, dependable analyses.</p><br />
+							<button class="btn btn-lg btn-success" id="read" onclick="readmore()">Read More</button> 
+							<script>
+								 function readmore()
+								{
+									
+									document.getElementById("heading").innerHTML="<br>Life Sciences and Biostatistics";
+									document.getElementById("accordion").innerHTML="<br><br>AVN bring expertise and insights in designing trials and developing complex statistical analysis plans. Our biostatisticians possess the critical thinking to assist clients.<br><br>Our biostatisticians are industry experts in several statistical areas including adaptive design, personalized medicine, Bayesian analysis and non-inferiority approaches with extensive experience in several indications. Our biostatisticians have over 15 years of experience in NDA/BLA/PMA submission and interacting with FDA/EMEA and PMDA and actively collaborate with academic, industry and FDA working groups. Additionally, they are experienced with CDISC data standards and electronic submission standards to deliver high quality, dependable analyses.<br><br>Our extensive experience allows us to develop a statistically rigorous and customized plan for each project. Our execution of the data analysis plan produces report ready summary tables, data listings and figures for interpretation and inclusion in the study report or submission. A thorough parallel validation and senior review process substantiates the accuracy and completeness of all statistical analyses.<br><br><br><br><br><br>";
+									document.getElementById("side_matter").innerHTML= "";
+									var butt=document.getElementById("read");
+									butt.parentNode.removeChild(butt);
+								}
+							 </script>
+							<br /><br /><br /><br /><br /><br />
+    				</div>
+				</div>
+				
+				<div class="row  tab-pane fade content" id="services">
+					<div class="col-xs-1"></div>
+					<div class="col-xs-2">
+						<h2>End to End Solutions</h2><br />
+						<ul  style="padding-left:7px; margin-left:7px; text-align:left;">
+							<li><p>It is a usual process that vendors are preferred over others for their competitive pricing, delivery methodology and project management skills.</p></li><br />
+							<li><p>AVN is preferred by clients for its expertise in providing end-to-end solutions built on their proprietary systems. We arrange for the right technical resources as per the project expectations. We offer services that deliver quality and provide measurable return on investments.</p></li>
+						</ul>
+					</div>
+					<div class="col-xs-1"></div>
+					<div class="col-xs-3">
+						<h2>Services</h2>
+						<ul style="list-style-type:none; padding-left:7px; margin-left:7px; text-align:left;">
+							<li class="active list"><a data-toggle="tab" href="#service_matter1"><button class="bullet"><span class="glyphicon glyphicon-chevron-right"></span></button><label>Biostatistics & Programming</label></a></li>
+							<li class="list"><a data-toggle="tab" href="#service_matter2"><button class="bullet"><span class="glyphicon glyphicon-chevron-right"></span></button><label>Data Management</label></a></li>
+							<li class="list"><a data-toggle="tab" href="#service_matter3"><button class="bullet"><span class="glyphicon glyphicon-chevron-right"></span></button><label>CDISC Imlementation</label></a></li>
+							<li class="list"><a data-toggle="tab" href="#service_matter4"><button class="bullet"><span class="glyphicon glyphicon-chevron-right"></span></button><label>Consulting Services</label></a></li>
+						</ul>
+					</div>
+					
+					<div class="col-xs-5 tab-content">
+						<div id="service_matter1" class="tab-pane fade in active"><br /><br /><br /><br />
+							<h4>Biostatistics & Programming</h4><br />
+							<p>AVN biostatisticians and statistical programmers provide comprehensive<br /> biostatistics and statistical programming services to support clinical, pre-clinical <br />and patient reported outcomes for pharmaceutical, medical devices and biotech companies</p><br /><br />
+							<h4>Biostatistics services include:</h4><br />
+							<ul  style="padding-left:7px; margin-left:7px; text-align:left;">
+								<li>Trial design and protocol development</li>
+								<li>Sample size calculation/justification</li>
+								<li>Randomization schemes</li>
+								<li>Statistical analysis plan (SAP) for different phases of clinical studies</li>
+								<li>SAP for Integrated safety and effectiveness (ISS/ISE)</li>
+								<li>SAP for briefing documents to regulatory agencies and publications</li>
+								<li>Data Monitoring Committee/independent statistician  services</li>
+							</ul><br />
+							<h4>Statistical programming services include:</h4><br /> 
+							<ul  style="padding-left:7px; margin-left:7px; text-align:left;">
+								<li>Data conversion</li>
+								<li>CDISC-compliant and submission-ready datasets and  documents</li>
+								<li>Statistical tables, listings, and figures for clinical study reports</li>
+								<li>Pharmacokinetic and pharmacodynamic analyses dataset preparation</li>
+							</ul>
+							<br /><br /><br /><br /><br /><br />
+						</div>
+						<div id="service_matter2" class="tab-pane fade"><br /><br /><br /><br />
+							<h4>Data Management</h4><br />
+							<p>AVN provides DATA MANAGEMENT SERVICES in both PAPER-BASED and ELECTRONIC DATA CAPTURE (EDC) clinical trials per clients’ request. AVN has also developed proprietary tools and standards to work with these products to further enhance the process and provide our clients with a streamlined and efficient approach to data management that results in a quality end product.</p><br /><br />
+							<h4>Data Management services include:</h4><br />
+							<ul  style="padding-left:7px; margin-left:7px; text-align:left;">
+								<li>Case Report Form (CRF) design </li>
+								<li>0Database design, creation, and maintenance</li>
+								<li>Annotated CRFs to both the database design and CDISC standards</li>
+								<li>Data entry</li>
+								<li>Data validation programming and testing</li>
+								<li>Data cleaning and query management</li>
+								<li>Laboratory data reconciliation</li>
+								<li>Database lock</li>
+								<li>Database transfer</li>
+								<li>Creation and maintenance of safety database for a single study or a global repository</li>
+								<li>Integration and verification of external electronic data</li>
+								<li>EDC end user training</li>
+							</ul><br />
+							<h4>Paper Based Data Management:</h4><br />
+							<p>For paper-based trials, AVN consultants have experiences in mainstream CDMS systems such as Clintrial™, and Oracle Clinical. Both management systems are scalable, having been deployed to manage thousands of clinical trials accommodating clinical study designs of various sizes and levels of intricacy.</p><br /><br />
+							<h4>Electronic Data Capture: Cost-effective e-solutions for your Clinical Research Program</h4><br />
+							<p>For EDC studies, AVN has experiences working with industry leading EDC products such as  InForm™ , Medidata and other EDC products.  AVN can help your clinical research program streamline the data validation process and query resolution, reduce the time from first patient in to database lock.  AVN’s ability to build the EDC database allows flexibility to take a custom approach that precisely meets your needs and your budget.</p><br />
+							<p>AVN’s key employees have excellent CDISC experience. CDISC data standards are rapidly becoming industry standard and adopted in various phases of clinical research. With our experience we can help your company make standards implementation seamless.</p><br /><br /><br /><br /><br /><br />
+ 						</div>
+						<div id="service_matter3" class="tab-pane fade"><br /><br /><br /><br />
+							<h4>CDISC Implementation</h4>
+							<h4>CDISC Advantages</h4><br />
+							<p>CDISC has developed a set of data standards to enhance data collection, management, analysis, and reporting efficiencies, improve safety monitoring, and streamline the review and approval process for investigational treatments. Under the ICH’s electronic Common Technical Document (eCTD) guidance, CDISC Study Data Tabulation Model (SDTM) is the preferred standard for content format and structure of clinical data for all clinical studies. Based on proposed federal regulations, the FDA will mandate that all clinical trial submissions be in electronic format and that the content comply with data standards guidance. AVN helps our clients by not only implementing these standards on a project or program, but also by providing our clients with an understanding of the CDISC standards.</p><br /><br />
+							<h4>CDISC Expertise</h4><br />
+							<p>AVN’s is able to provide expert services to our clients for successful standards adoption  paper-based clinical trials and eCRFs for electronic data capture (EDC) clinical trials following Clinical Data Acquisition Standards Harmonization (CDASH) compliant.  AVN key members leverage their years of experience in statistical analysis and strategic consulting to provide SDTM mapping and Analysis Data Model (ADaM) data for statistical analysis in support of ISS and ISE.</p><br /><br />
+							<h4>AVN provides the following CDISC services:</h4><br />
+							<ul  style="padding-left:7px; margin-left:7px; text-align:left;">
+								<li>CDASH Compliant CRF (Paper or Electronic)</li>
+								<li>CDASH and SDTM Annotated CRF</li>
+								<li>SDTM Mapping</li>
+								<li>ADaM Data</li>
+								<li>Generation of Define.xml and Define.pdf as well as related Documents for submission</li>
+								<li>Metadata and Data Repositories</li>
+								<li>Strategic Consulting</li>
+								<li>Comprehensive QC of SDTM/Metadata following CDISC SDTM 3.1.2, 3.1.3, 3.2</li>
+							</ul><br /><br /><br /><br /><br /><br />
+						</div>
+						<div id="service_matter4" class="tab-pane fade"><br /><br /><br /><br />
+							<h4>Consulting Services</h4><br />
+							<p>Our experienced team of consultants has not only participated in all aspects of clinical trials, but has practical knowledge in a wide variety of therapeutic areas. Our teams provide high-level strategic consulting services ranging from study design to submission strategies.</p><br />
+							<h4>AVN’s strategic consulting services include:</h4><br />
+							<ul  style="padding-left:7px; margin-left:7px; text-align:left;">
+								<li>Trial design</li>
+								<li>Sample size calculations/justification</li>
+								<li>Protocol writing</li>
+								<li>Case Report Form(s) design</li>
+								<li>Interim analysis plan writing</li>
+								<li>Analysis planning</li>
+								<li>Regulatory guidance and planning</li>
+								<li>Clinical trial rescue</li>
+							</ul><br /><br /><br /><br /><br /><br />
+						</div>
+					</div>
+				</div>
+				
+				<div class="row  tab-pane fade content" id="technologies" >
+					<div class="col-xs-1"></div>
+					<div class="col-xs-2">
+						<h2>Robust Developement</h2><br />
+						<p>Robust Project Management services with a host of products to showcase Prompt project delivery by teaming with the client’s in-house team significantly, we leverage on customization and integration of solutions. We help our clients to meet the complex needs of the business growth and provide a measurable return on their investments.</p>
+					</div> 
+					<div class="col-xs-1"></div>
+					<div class="col-xs-7">
+						<h2>Technologies</h2>
+						<br />
+						<p>AVN’s team of Programmers, Statisticians, Data Managers, Clinical Data base Programmers and other project personnel adopt the right-fit and custom technologies to generate high value for the clients.</p><br />
+						<p>Our experience on each project tells us that, by deploying the right resources with the needful technology expertise, we can ensure high value results. It not only contributes to enhancing our competencies but also reinforces our efforts to offer competitive solutions.</p><br /><br />
+						<h4>Specialization includes:</h4><br />
+						<ul  style="padding-left:7px; margin-left:7px; text-align:left;">
+							<li>SAS</li>
+							<li>R Language</li>
+							<li>S-Plus Language</li>
+							<li>Oracle and Oracle Clinical Data bases</li>
+							<li>Inform data base</li>
+							<li>Medidata Rave</li>
+						</ul>
+						<br /><br /><br /><br /><br /><br /><br /><br />
+					</div>
+					<div class="col-xs-2"></div>
+			    </div>
+				
+				<div class="row  tab-pane fade content" id="solutions" >
+					<div class="col-xs-1"></div>
+					<div class="col-xs-5">
+						<h2>Solutions</h2><br /><br />
+						<h4><button class="bullet"><span class="glyphicon glyphicon-chevron-right"></span></button>Quality</h4><br />
+						<p>AVN’s quality, cost-effective and value-driven solutions are based on the premise that technology innovation and domain competency are a result of our domain competency, and great understanding of the client’s business process.</p><br />
+						<h4><button class="bullet"><span class="glyphicon glyphicon-chevron-right"></span></button>Offers</h4><br />
+						<p>AVN offer services include SAS Programming, Biostatistics, Data Management, CDISC conversion.</p><br />
+						<ul  style="padding-left:7px; margin-left:7px; text-align:left;">
+							<li>Achieves a strong customer focus</li>
+							<li>Makes a meticulous study of customer expectations and behavior, market research and technology needs</li>
+							<li>Creates differentiated solutions that meet customer needs</li>
+							<li>Executes cross functional ideas from idea to launch</li>
+						</ul><br /><br />
+					</div> 
+					<div class="col-xs-1"></div>
+					<div class="col-xs-4"><br /><br /><br /><br />
+						<h4><button class="bullet"><span class="glyphicon glyphicon-chevron-right"></span></button>Strategy</h4>
+						<br />
+						<p>At AVN, innovation and synergy are the basis of our strategy. We could achieve effective cross functionality by our robust teamwork. We consider that, each project’s success is majorly dependent on the people and their skills set.</p><br />
+						<h4><button class="bullet"><span class="glyphicon glyphicon-chevron-right"></span></button>Teams</h4><br />
+						<p>AVN includes teams of SAS Programming Managers, Sr. Biostatisticians, Data Managers that come with rich project management expertise and the right domain competency. It is only by balancing effectively the resources available and project expectations we can assure timely project delivery and create high value for our clients.</p><br /><br /><br /><br /><br /><br />
+					</div>
+			    </div>
+				
+				
+				<div class="row  tab-pane fade content" id="industries" >
+					<div class="col-xs-1"></div>
+					<div class="col-xs-3">
+						<h2>We focus on</h2><br /><br />
+						<ul style="list-style-type:none; padding-left:7px; margin-left:7px; text-align:left;">
+							<li class="active list"><a data-toggle="tab" href="#industries_matter1"><button class="bullet"><span class="glyphicon glyphicon-chevron-right"></span></button><label>Industries</label></a></li>
+							<li class="list"><a data-toggle="tab" href="#industries_matter2"><button class="bullet"><span class="glyphicon glyphicon-chevron-right"></span></button><label>Healthcare</label></a></li>
+							<li class="list"><a data-toggle="tab" href="#industries_matter3"><button class="bullet"><span class="glyphicon glyphicon-chevron-right"></span></button><label>life science</label></a></li>
+						</ul>
+					</div> 
+					<div class="col-xs-1"></div>
+					<div class="col-xs-5 tab-content">
+						<div id="industries_matter1" class="tab-pane fade in active"><br /><br /><br /><br />
+							<h3>Industries</h3><br />
+							<p>AVN team of IT professionals bring in product engineering and consulting, application development, maintenance and support, customization, upgrade, applications integration and interface development services. We offer custom and value-driven industry-specific solutions.</p><br /><br />
+							<p>Our IT competencies include</p><br />
+							<ul  style="padding-left:7px; margin-left:7px; text-align:left;">
+								<li>High-end consulting capabilities in Banking, Asset and Wealth Management</li>
+								<li>Product development, product consulting, strategic partnerships and investments</li>
+								<li>Managed services, integrated IT & Operations</li>
+								<li>Comprehensive approach to Social Networks, Mobile Apps, Analytics, Cloud Computing and Embedded solutions</li>
+							</ul><br /><br /><br /><br /><br />
+						</div>
+						<div id="industries_matter2" class="tab-pane fade"><br /><br /><br /><br />
+							<h3>Healthcare</h3><br />
+							<p>The global healthcare industry faces challenges of better resource utilization, strong customization of applications, integrated clinical data and service line, demand for lower cost and high quality care, protection and confidentiality of patient data, and safety concerns of patients.</p><br /><br />
+							<p>Understanding the challenges that the healthcare industry confronts today, AVN has developed the right-fit and affordable  solutions. Our portfolio of healthcare solutions includes secure data management, enterprise collaboration and patient engagement capability.</p>
+							<p>Our enterprise applications for the healthcare industry leverage on latest technologies: Oracle, SAP, SOA and Middleware. We have ready solutions for marketing and sales, patient records management, relationship management, information exchange, human capital management, and financial reporting.</p><br /><br /><br /><br />
+						</div>
+						<div id="industries_matter3" class="tab-pane fade"><br /><br /><br /><br />
+							<h3>life Sciences</h3><br />
+							<p>AVN delivers life sciences talent and solutions to Biotech, Pharma, and medical device that drive research, development and quality in today’s leading innovations.</p><br /><br />
+							<p>With an extensive network of top industry resources and life sciences expertise we deliver on our clients’ expectations every day. Whether we are providing industry-focused services or project-based and comprehensive workforce solutions, our clients count on AVN Technologies as a trusted partner.</p><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+						</div>
+					</div>
+				</div>
+				
+				<div class="row  tab-pane fade content" id="technologies" >
+					<div class="col-xs-1"></div>
+					<div class="col-xs-2">
+						<h2>Robust Developement</h2><br />
+						<p>Robust Project Management services with a host of products to showcase Prompt project delivery by teaming with the client’s in-house team significantly, we leverage on customization and integration of solutions. We help our clients to meet the complex needs of the business growth and provide a measurable return on their investments.</p>
+					</div> 
+					<div class="col-xs-1"></div>
+					<div class="col-xs-7">
+						<h2>Technologies</h2>
+						<br />
+						<p>AVN’s team of Programmers, Statisticians, Data Managers, Clinical Data base Programmers and other project personnel adopt the right-fit and custom technologies to generate high value for the clients.</p><br />
+						<p>Our experience on each project tells us that, by deploying the right resources with the needful technology expertise, we can ensure high value results. It not only contributes to enhancing our competencies but also reinforces our efforts to offer competitive solutions.</p><br /><br />
+						<h4>Specialization includes:</h4><br />
+						<ul  style="padding-left:7px; margin-left:7px; text-align:left;">
+							<li>SAS</li>
+							<li>R Language</li>
+							<li>S-Plus Language</li>
+							<li>Oracle and Oracle Clinical Data bases</li>
+							<li>Inform data base</li>
+							<li>Medidata Rave</li>
+						</ul><br /><br /><br /><br /><br /><br />
+					</div>
+					</div>
+					
+					<div class="row  tab-pane fade content" id="careers" >
+					<div class="col-xs-2"></div>
+					<div class="col-xs-8"><br /><br />
+					<button class="btn btn-md btn-success" id="available" onclick="available()" style="float:right;">Available Positions</button> 
+					<script>
+					 function available()
+								{
+									document.getElementById("career_heading").innerHTML="<br>Available Positions";
+									document.getElementById("career_matter").innerHTML="<br><h4>Clinical Statistical Programmer/Analyst</h4><br><br> <strong>Title:</strong>Clinical Statistical Programmer/Analyst<br><br><strong>Duties:</strong> Perform data analysis, statistical analysis, testing, generating reports and listings using SAS tools- SAS/BASE, SAS MACROS. Produce quality customized reports by using PROC REPORT and provide descriptive statistics using PROC MEANS & PROC FREQ. Use PROC SQL to join tables. Experience in SAS programs. Skills: SAS/BASE, SAS MACROS, PROC MEANS, PROC FREQ, PROC SQL. Must be willing to travel and/or relocate to work in unanticipated locations throughout the US. Send Resume to AVN Technologies, 144 E Dekalb Pike, Suite 100, King of Prussia, PA 19406.<br><br><strong>Requirements:</strong>Biomedical Engineering, Bachelor’s degree in Health Science, Computer Science, Pharmacy, or its related field<br><br><br><strong>Hours:</strong> 40 hours/week, Mon- Fri, 9:00am – 5:00pm<br><strong>Job Location:</strong> AVN Technologies<br>144 E Dekalb Pike, Suite 100,<br>King of Prussia, PA 19405<br><strong>Contact:</strong> Holly Brownback<br>HR Manager<br>Phone: 610-337-1935 Ext 25<br><br><br><br><br><br>";
+									
+									var butt1=document.getElementById("available");
+									butt1.parentNode.removeChild(butt1);
+								}
+					</script>
+						<h2 id="career_heading">Careers</h2><br />
+						<div id="career_matter"<p>AVN Technologies Inc. is an equal opportunity company. We have based our HR philosophy on the values of trust, transparency and competency. By choosing the right people for the client’s projects we have ensured not only project success but also achieve complete client satisfaction.</p><br />
+						<p>The non-stress environment at our workplace puts work and play put in the right balance. This has helped us to sustain each team member’s interest in work, greater productive and far lesser attrition rates. We provide our personnel good and congenial work environment, transport and canteen facilities. Facilities for indoor games were arranged at the staff canteen.</p><br />
+						<p>The challenges associated with each client’s project have put our project readiness in question. To counter this challenge effectively we have taken measures to enhance the readiness of personnel for the present and future project challenges.</p><br />
+						<p>The in-house trainings and expert interactive sessions have been made part of the employee orientation and on-job training activities. At AVN, skill development by conduct of job enrichment programs is a continuous activity.</p><br />
+						<p>The routine at AVN includes outings, celebration of birthdays, and arrangement of get-together parties at regular intervals of time. It has been integral to our work culture that good working conditions and healthy social life is a big booster of employee’s productivity, and keeps them focused at work.</p><br />
+						<br /><br /><br /><br /><br /><br /><br /><br /><br /></div>
+					</div> 
+				
+					<div class="col-xs-2"></div>
+				</div>
+				
+				<div class="row  tab-pane fade content" id="contacts" style="width:1363px">
+					<div class="col-xs-1"></div>
+					<div class="col-xs-3">
+						<h2>Contacts</h2><br />
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3800.3688455850242!2d83.2998040148812!3d17.727251537875695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3943248f809fdb%3A0xb01327042dd0e4a2!2sBhuvaneswari+Plaza%2C+Railway+New+Colony+Rd%2C+Dondaparthy%2C+Railway+New+Colony%2C+Visakhapatnam%2C+Andhra+Pradesh+530016!5e0!3m2!1sen!2sin!4v1505221562735" width="320" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+						<br /><br /><br /><br /><br />
+					</div> 
+				
+					<div class="col-xs-2"><br /><br /><br /><br />
+						<p><h4>AVN Techno Services</h4></p>
+							47-10-1/9, 3rd floor,<br />
+							Bhuvaneswari Plaza,<br />
+							Above RBL Bank Ltd,<br />
+							opp. Karachi Bakery,<br />
+							Dwaraka Nagar,<br />
+							Visakhapatnam-530016. A.P.</p>
+					</div>
+					<div class="col-xs-1"></div>
+					<div class="col-xs-4">
+						<h2>Request For Quote</h2>
+						<form>
+						<label>Name:</label><br />
+						<input type="text" class="textbox"/><br />
+						<label>Email:</label><br />
+						<input type="text" class="textbox"/><br />
+						<label>Comments:</label><br />
+						<textarea cols="37" rows="7"></textarea><br />
+						<button class="btn btn-md btn-info">send</button>	
+						</form>	
+						<br /><br /><br /><br /><br /><br /><br /><br />			
+					</div>	
+					
+			    </div>
+				
+				
+		</div>
+	</div>
+<div id="footer">	
+<div class="fluid-container">
+	<div class="row">
+		<div class="col-xs-3"></div>
+		<div class="col-xs-6">
+			<p style="text-align:center;">©2006-2007 ALL RIGHTS RESERVED TO AVN TECHNOLOGIES, INC | PRIVACY</p>
+		</div>
+		<div class="col-xs-3"></div>
+	</div>
+	</div>
+</div>
+</body>
+</html>
+
